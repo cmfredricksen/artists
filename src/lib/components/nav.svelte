@@ -9,8 +9,8 @@
 			path: '/'
 		},
 		{
-			title: 'Donate',
-			path: '/'
+			title: 'API',
+			path: '/api/artists'
 		},
 		{
 			title: 'Artists',
