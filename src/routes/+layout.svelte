@@ -4,6 +4,10 @@
 	import Footer from '$lib/components/footer.svelte';
 </script>
 
+<svelte:head>
+	<title>Arts In Ely | Home</title>
+</svelte:head>
+
 <Header />
 
 <div class="wrapper">

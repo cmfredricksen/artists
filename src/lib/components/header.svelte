@@ -13,5 +13,7 @@
 		justify-content: space-between;
 		align-items: baseline;
 		padding: 1rem;
+		background-color: #3bb3fe;
+		color: #fff;
 	}
 </style>
