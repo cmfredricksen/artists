@@ -2,11 +2,11 @@
 	const links = [
 		{
 			title: 'Home',
-			path: '/'
+			path: 'https://artsinely.org/'
 		},
 		{
 			title: 'Directory',
-			path: '/'
+			path: 'https://artsinely.org/arts-directory/'
 		},
 		{
 			title: 'API',
