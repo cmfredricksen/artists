@@ -26,3 +26,15 @@ a,
 li {
 	font-family: var(--font-accent);
 }
+
+.tag-box {
+	font-size: 0.75rem;
+	padding: 0.5rem 0;
+}
+
+.tag-box a {
+	margin: 1rem 0.5rem;
+	padding: 0.25rem;
+	background-color: #3bb3fe;
+	color: #fff;
+}

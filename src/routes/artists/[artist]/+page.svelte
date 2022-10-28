@@ -12,9 +12,11 @@
 <a href="mailto:{email}">email</a>
 <a href={website}>{website}</a>
 
-{#each tags as tag}
-	<p>#{tag}</p>
-{/each}
+<div class="tag-box">
+	{#each tags as tag}
+		<a href="/artists/tag/{tag}">#{tag}</a>
+	{/each}
+</div>
 
 {#each images as image}
 	<img src={image} alt="pic" />

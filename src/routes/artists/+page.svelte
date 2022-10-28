@@ -1,9 +1,5 @@
 <script>
 	export let data;
-	console.log(data.artists[0].meta.images[0]);
-	console.log(data.artists);
-	// const image = data.meta.images;
-	// console.log(image);
 </script>
 
 <svelte:head>
@@ -35,17 +31,5 @@
 		margin: 1rem 0;
 		padding: 1rem;
 		background-color: lightskyblue;
-	}
-
-	.tag-box {
-		font-size: 0.75rem;
-		padding: 0.5rem 0;
-	}
-
-	.tag-box a {
-		margin: 1rem 0.5rem;
-		padding: 0.25rem;
-		background-color: #3bb3fe;
-		color: #fff;
 	}
 </style>
