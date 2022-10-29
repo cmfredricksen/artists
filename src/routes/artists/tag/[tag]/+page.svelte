@@ -4,7 +4,11 @@
 	const { meta, artists } = data;
 </script>
 
-<h1>#{data.tag}</h1>
+<svelte:head>
+	<title>Artists | {data.tag}</title>
+</svelte:head>
+
+<h1>{data.tag}</h1>
 
 <ul>
 	{#each artists as artist}
@@ -16,6 +20,9 @@
 </ul>
 
 <style>
+	h1 {
+		padding: 0 0 2rem;
+	}
 	img {
 		width: 50px;
 	}
